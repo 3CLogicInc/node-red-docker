@@ -29,8 +29,7 @@
         }
     ],
     "dependencies": {
-        "3c-node-red": "3.1.6",
-        "axios": "1.6.8"
+        "3c-node-red": "3.1.6"
     },
     "engines": {
         "node": ">=14"
