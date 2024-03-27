@@ -1,5 +1,5 @@
 #!/bin/bash
-export NODE_RED_VERSION=$(grep -oE "\"3c-node-red\": \"(\w*.\w*.\w*.\w*.\w*.)" package.json | cut -d\" -f4)
+export NODE_RED_VERSION=$(grep -oE "\"node-red-3c\": \"(\w*.\w*.\w*.\w*.\w*.)" package.json | cut -d\" -f4)
 
 echo "#########################################################################"
 echo "node-red version: ${NODE_RED_VERSION}"
